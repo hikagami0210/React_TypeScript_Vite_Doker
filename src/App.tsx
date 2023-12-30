@@ -31,12 +31,13 @@ function App() {
       <div className="card">
         <button
           onClick={() => {
-            setCount(() => count + 1);
+            setCount(() => count + 10);
             setCenter("center");
           }}
         >
           count is222 {count}
         </button>
+
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
