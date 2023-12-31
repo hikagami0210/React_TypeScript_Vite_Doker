@@ -20,10 +20,10 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
         "paths": {
-            "src/*": ["./dist/src/*", "./src/*"]
+            "src/*": ["./dist-css/src/*", "./src/*"]
         }
     },
-    "include": ["src", "types", "dist/**/*", ".eslintrc.js"],
+    "include": ["src", "types", "dist/**/*"],
     "exclude": ["node_modules"],
     "references": [{ "path": "./tsconfig.node.json" }]
 }

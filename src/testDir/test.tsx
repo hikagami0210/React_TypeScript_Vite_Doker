@@ -1,5 +1,7 @@
 import styled from "src/testDir/test.module.css";
 
-export function test() {
+function test() {
     return <div className={styled.test}>test</div>;
 }
+
+export default test;
